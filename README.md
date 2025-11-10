@@ -121,7 +121,7 @@ export LD_LIBRARY_PATH=/path/to/SFML/lib:$LD_LIBRARY_PATH
 - Check asset file permissions
 
 Developer: Saad Azhar
-Roll No: 23i-0822
-Section: CS-E
+Email : daimazhar@gmail.com
+Semester 1 - Project     FAST NUCES 
 
 Enjoy the game!
