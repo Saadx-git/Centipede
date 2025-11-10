@@ -1,0 +1,105 @@
+CENTIPEDE - HOW TO PLAY
+=======================
+
+OBJECTIVE:
+- Destroy the centipede and other enemies while avoiding collisions
+- Score as many points as possible
+- Progress through increasingly difficult levels
+
+CONTROLS:
+---------
+MOVEMENT:
+  W / Up Arrow    - Move Up
+  A / Left Arrow  - Move Left
+  S / Down Arrow  - Move Down
+  D / Right Arrow - Move Right
+
+COMBAT:
+  Spacebar - Shoot Bullets
+
+GAME ELEMENTS:
+--------------
+PLAYER (Spaceship):
+  - Controlled by you
+  - Can move freely in the lower portion of the screen
+  - Can shoot bullets upward
+
+CENTIPEDE:
+  - Main enemy that moves across the screen
+  - Splits into segments when hit
+  - Changes direction when hitting mushrooms or screen edges
+  - Head segment is worth more points
+
+MUSHROOMS:
+  - Obstacles that block movement and centipede path
+  - Can be destroyed by shooting them 2 times
+  - Appear when centipede segments are destroyed
+
+SPIDER:
+  - Moves randomly around the screen
+  - Points vary based on distance from player when killed:
+    * Close range (≤2 boxes): 900 points
+    * Medium range (≤3 boxes): 600 points
+    * Long range: 300 points
+  - Can destroy mushrooms by moving over them
+
+SCORPION:
+  - Moves horizontally across the screen
+  - Worth 1000 points when destroyed
+  - Poisons mushrooms it touches (poisoned mushrooms are lethal!)
+
+POISONED MUSHROOMS:
+  - Created when scorpion passes over regular mushrooms
+  - Instantly kill player on contact
+  - Visually different from regular mushrooms
+
+SCORING SYSTEM:
+---------------
+- Centipede body segment: 10 points
+- Centipede head segment: 20 points
+- Mushroom destruction: 1 point
+- Spider: 300-900 points (based on distance)
+- Scorpion: 1000 points
+
+GAME RULES:
+-----------
+1. Player starts with limited movement area (cannot go above row 25)
+2. Only one bullet can be on screen at a time
+3. Game ends if player collides with:
+   - Any centipede segment
+   - Spider
+   - Scorpion
+   - Poisoned mushroom
+
+LEVEL PROGRESSION:
+------------------
+- Advance to next level when all centipede segments are destroyed
+- Each new level:
+  * Centipede moves faster
+  * More mushrooms appear
+  * Centipede gains additional segments
+  * Enemies respawn
+
+TIPS & STRATEGIES:
+------------------
+1. Prioritize destroying the centipede head first
+2. Create safe paths by destroying mushrooms strategically
+3. Watch for poisoned mushrooms - they're instant death!
+4. Kill spiders when they're far away for maximum points
+5. Scorpions are high-value targets but dangerous
+6. Use the environment to trap the centipede
+7. Keep moving to avoid enemy collisions
+
+HIGH SCORES:
+------------
+- Your highest score is saved automatically
+- Compete to beat your personal best!
+
+GOOD LUCK AND HAVE FUN! 
+
+
+CREATED BY:
+------------ 
+- Saad Azhar 
+- i230822@isb.nu.edu.pk / daimazhar@gmail.com
+- FAST NUCES
